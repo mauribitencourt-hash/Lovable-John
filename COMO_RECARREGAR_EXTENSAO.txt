@@ -1,0 +1,46 @@
+╔══════════════════════════════════════════════════════════════════╗
+║       COMO RECARREGAR A EXTENSÃO NO CHROME (OBRIGATÓRIO!)       ║
+╚══════════════════════════════════════════════════════════════════╝
+
+⚠️ IMPORTANTE: O Chrome está usando a versão ANTIGA (com bugs) em cache!
+
+📋 PASSO A PASSO PARA RECARREGAR:
+
+1. Abra o Chrome
+2. Digite na barra de endereço: chrome://extensions/
+3. Ative o "Modo do desenvolvedor" (canto superior direito)
+4. Encontre sua extensão na lista
+5. Clique no botão 🔄 "Recarregar" (reload icon)
+6. Feche TODAS as abas da extensão abertas
+7. Abra a extensão novamente
+
+═══════════════════════════════════════════════════════════════════
+
+🎯 ALTERNATIVA MAIS RÁPIDA:
+
+1. Vá em chrome://extensions/
+2. Clique em "Remover" na sua extensão
+3. Clique em "Carregar sem compactação"
+4. Selecione a pasta: C:\Users\joao lucas\Desktop\Nova pasta
+5. Pronto!
+
+═══════════════════════════════════════════════════════════════════
+
+✅ DEPOIS DE RECARREGAR:
+
+- O navegador NÃO vai mais travar
+- A validação de licença vai funcionar
+- Não vai ficar em loop "Verificando..."
+- O Device ID vai aparecer corretamente
+
+═══════════════════════════════════════════════════════════════════
+
+❌ ERROS QUE VOCÊ ESTÁ VENDO SÃO DO CACHE ANTIGO:
+
+- "this[_0x217dd7(...)] is not a function" ← Código ofuscado ANTIGO
+- "Cannot set properties of null" ← Versão antiga bugada
+- Loop em "Verificando..." ← KeyAuth antigo ainda ativo
+
+🔧 A SOLUÇÃO É SIMPLES: Recarregue a extensão!
+
+═══════════════════════════════════════════════════════════════════
